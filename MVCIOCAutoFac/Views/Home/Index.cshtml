@@ -1,0 +1,10 @@
+﻿@inherits MVCIOCAutoFac.CustomPages.CustombasePage
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div class="jumbotron">
+    <h1>@DataRepository.GetData() @DataRepository.Count </h1>
+</div>
+
